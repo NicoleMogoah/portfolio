@@ -14,6 +14,22 @@ export default function App() {
           </nav>
         </div>
       </header>
+      <section className="bg-blue-50 py-20 text-center">
+  <img
+    src="/profile.jpg"
+    alt="Profile"
+    className="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg"
+  />
+  <h2 className="text-3xl font-bold mb-2">Hi, I’m Nicole Mogoah</h2>
+  <p className="text-lg text-gray-600 mb-4">Frontend Developer & Designer</p>
+  <a
+    href="#projects"
+    className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+  >
+    View Projects
+  </a>
+</section>
+
 
       <main className="max-w-6xl mx-auto py-20 px-4">
         <section id="about" className="mb-20">
